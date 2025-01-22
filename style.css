@@ -1,0 +1,48 @@
+body {
+    font: 1em sans-serif;
+    background-color: black;
+}
+
+.header{
+    display:flex;
+    flex: 1;
+    background-color:#1F2937;
+    padding: 0px;
+    margin: 0 50px
+    
+}
+
+.title {
+   color:#F9FAF8;
+   font-size: 24px;
+   
+}
+
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #E5E7EB;
+
+}
+
+top {
+  display: flex;
+  
+}
+
+.bigtextbox {
+    display: flex;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.littletextbox {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bigtextbox .littletextbox {
+
+}
