@@ -6,24 +6,37 @@ body {
 .header{
     display:flex;
     flex: 1;
-    background-color:#1F2937;
-    padding: 0px;
-    margin: 0 50px
     
+}
+
+.top-bar {
+    height: 300px;
+    width: 900px;
+    background-color: #1F2937;
+    box-sizing: border-box;
+    align-items: center;
+
 }
 
 .title {
    color:#F9FAF8;
    font-size: 24px;
-   
+   padding: 8px 100px;
+   margin-bottom: 50px;
 }
 
+#nav {
+   display: flex;
+   margin-left: 300px;
+   margin-right: auto;
+}
 
 a {
     text-decoration: none;
     list-style-type: none;
     color: #E5E7EB;
-
+    padding: 14px 8px;
+    
 }
 
 top {
@@ -36,13 +49,21 @@ top {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    text-wrap: wrap;
+    width: 300px;
+    padding: 0px 100px;
 }
 
 .littletextbox {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 0px 100px;
 }
 
-.bigtextbox .littletextbox {
-
+.img {
+    display: flex;
+     width: 300px;
+    margin-left: 485px;
+    margin-top: -150px;
+   
 }
