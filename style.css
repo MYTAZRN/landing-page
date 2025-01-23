@@ -1,10 +1,10 @@
 body {
     font: 1em sans-serif;
-    background-color: black;
-    display: block;
-    justify-content: center;
-    
- 
+    background-color: rgb(14, 14, 14);
+}
+
+.full-center{
+    margin: auto;
 }
 
 .header{
@@ -13,8 +13,8 @@ body {
 }
 
 .top-bar {
-    height: 300px;
-    width: 900px;
+    height: 250px;
+    width: 800px;
     background-color: #1F2937;
     box-sizing: border-box;
     align-items: center;
@@ -26,12 +26,12 @@ body {
    font-size: 24px;
    font-weight: bold;
    padding: 8px 100px;
-   margin-bottom: 50px;
+   margin-bottom: 30px;
 }
 
 #nav {
    display: flex;
-   margin-left: 300px;
+   margin-left: 210px;
    margin-right: auto;
 }
 
@@ -46,7 +46,7 @@ a {
 
 .bigtextbox {
     display: flex;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 900;
     color: #F9FAF8;
     text-wrap: wrap;
@@ -73,16 +73,16 @@ a {
 
 .img {
     display: flex;
-     width: 300px;
+     width: 275px;
      height: 150px;
-    margin-left: 485px;
-    margin-top: -150px;
+    margin-left: 424px;
+    margin-top: -145px;
    
 }
 /*css for 2nd white border box*/
 .middle-bar {
-    height: 300px;
-    width: 900px;
+    height: 250px;
+    width: 800px;
     background-color:white;
     box-sizing: border-box;
     
@@ -94,7 +94,7 @@ a {
     color: #1F2937;
     display: flex;
     justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     padding:10px
 }
 
@@ -130,22 +130,22 @@ a {
 /*css for 3rd grey border box*/
 
 .grey-bar {
-    height: 300px;
-    width: 900px;
+    height: 250px;
+    width: 800px;
     background-color:#E5E7EB;
     box-sizing: border-box;
 }
 
 .space{
-    padding: 40px;
+    padding: 24px;
 }
 
 .grey-para {
     color: #1F2937;
     font-style: italic;
-    font-size: 22px;
+    font-size: 18px;
     display: flex;
-    width: 700px;
+    width: 600px;
     margin-left: 100px;
 }
 
@@ -157,12 +157,58 @@ a {
     margin-right: 120px;
     
 }
+/* Last white border box*/
+
+.final-white-bar {
+    height: 180px;
+    width: 800px;
+    background-color: #F9FAF8;
+    box-sizing: border-box;
+}
+
+.space2 {
+    padding: 24px;
+}
+
+.blue-block {
+    background-color: #3662F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.bold-text {
+    color:#F9FAF8;
+    
+}
+
+.under-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    color:#F9FAF8;
+}
+
+#sign-up2 {
+    background-color: #3662F6;
+    color:white;
+    font-weight: bold;
+    border: 1px solid #F9FAF8;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
 
 /* bottom slim border box*/
 
 .bottom-bar {
     height: 50px;
-    width: 900px;
+    width: 800px;
     background-color:#1F2937;
     box-sizing: border-box;
 }
