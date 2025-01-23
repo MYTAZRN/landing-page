@@ -4,7 +4,7 @@ body {
 }
 
 .full-center{
-    margin: auto;
+  margin-left: 530px;
 }
 
 .header{
@@ -15,6 +15,7 @@ body {
 .top-bar {
     height: 250px;
     width: 800px;
+    
     background-color: #1F2937;
     box-sizing: border-box;
     align-items: center;
@@ -176,7 +177,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 500px;
-    margin-left: 150px;
+    margin-left: 140px;
     padding: 10px;
     border-radius: 5px;
 }
