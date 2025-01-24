@@ -15,11 +15,8 @@ body {
 .top-bar {
     height: 250px;
     width: 800px;
-    
     background-color: #1F2937;
     box-sizing: border-box;
-    align-items: center;
-
 }
 
 .title {
@@ -41,7 +38,6 @@ a {
     list-style-type: none;
     color: #E5E7EB;
     padding: 14px 8px;
-    
 }
 
 
@@ -78,15 +74,15 @@ a {
      height: 150px;
     margin-left: 424px;
     margin-top: -145px;
-   
 }
+
 /*css for 2nd white border box*/
+
 .middle-bar {
     height: 250px;
     width: 800px;
     background-color:white;
     box-sizing: border-box;
-    
 }
 
 .middle-header {
